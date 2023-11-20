@@ -45,16 +45,16 @@ dependencies {
     implementation "androidx.compose.material:material:$compose_version"
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-
-                groupId = 'com.github.philipplackner'
-                artifactId = 'image-preview-compose'
-                version = '1.0'
-            }
-        }
-    }
-}
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//
+//                groupId = 'com.github.SudarshanPrasad'
+//                artifactId = 'image-preview-compose'
+//                version = '1.0'
+//            }
+//        }
+//    }
+//}
